@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+header {
+  background: rgba(255, 255, 255, 1);
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+  width:100%;
+  height: 58px;
+  top: 45px;
+  left: 373px;
+  border-radius: 15px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header-logo {
+  border-style: none;
+}
+.header-list {
+  display: flex;
+  color: rgba(161, 181, 187, 1);
+  gap: 100px;
+}
+
+#header-item {
+  margin: 0px 30px;
+  color: black;
+  border-bottom: 2px solid transparent;
+}
+
+#header-item:hover {
+  border-color:black;
+}
+
+
+.header-btns {
+  display: flex;
+  justify-content:space-between;
+  margin-right: 20px;
+  
+ 
+}
+.header-btn {
+    background: transparent;
+    color:black;
+    margin-right: 2px;
+    margin-left: 20px;
+    border-style: none;
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.96px;
+text-align: left;
+width:100px;
+height: 40px;
+
+    
+}
+
+.header-btnm {
+  border: 1.4px solid rgba(245, 56, 85, 1);
+  color: rgba(245, 56, 85, 1);
+  width:100px;
+  height: 40px;
+  border-radius: 50px;
+}
+/* Hero */
+
+.hero-cards{
+    display: flex;
+    justify-content: center ;
+    margin-top: 20px;
+}
+.hero-title{
+    font-family: Rubik;
+font-size: 50px;
+font-weight: 500;
+line-height: 70px;
+text-align: left;
+width: 555px;
+height: 140px;
+top: 206.77px;
+left: 150px;
+margin-top: 20px;
+
+}
+.hero-desc{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+width: 555px;
+height: 60px;
+top: 366.77px;
+left: 150px;
+margin-top: 25px;
+margin-bottom: 40px;
+
+}
+.hero-btn{
+background: rgba(245, 56, 56, 1);
+  color: antiquewhite;
+margin-top: 30px;
+opacity: 0px;
+width: 250px;
+height: 60px;
+top: 476.77px;
+left: 150px;
+border-radius: 10px;
+border-style: none;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 700;
+line-height: 25px;
+text-align:center;
+box-shadow: rgb(209, 75, 75) 5px 3px;
+}
+/* Features */
+.features-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   box-shadow:  3px 3px rgb(205, 208, 232);
+   
+
+}
+.features-card:hover{
+ border-right: 4px solid rgb(84, 180, 253);
+
+    
+}
+
+.features-title{
+    font-family: Rubik;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+margin-left: 10px;
+
+}
+.features-desc{
+    font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: rgba(79, 86, 101, 1);
+
+
+}
+/* Prising */
+.prising-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.prising-title{
+    width: 383.41px;
+height: 100px;
+top: 1014.55px;
+left: 862.12px;
+margin-top: 30px;
+margin-bottom: 10px;
+font-family: Rubik;
+font-size: 35px;
+font-weight: 500;
+line-height: 50px;
+text-align: left;
+color: rgba(11, 19, 42, 1);
+
+}
+.prising-desc{
+    width: 427.88px;
+height: 60px;
+top: 1134.55px;
+left: 862.12px;
+margin-bottom: 15px;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: rgba(79, 86, 101, 1);
+
+
+}
+.prising-items{
+ 
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: rgba(79, 86, 101, 1);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Location */
+.location-title{
+   width: 383.41px;
+    height: 100px;
+    top: 2686.55px;
+    left: 528.3px;
+   margin-left: 550px;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+        
+}
+.location-desc{
+text-align: center;
+width: 555px;
+height: 60px;
+top: 2806.55px;
+left: 442.5px;
+margin-left: 480px;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+color: rgba(79, 86, 101, 1);
+
+}
+.location-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+/* Footer */
+.address-cards{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 75px;
+  }
+  .address-card-desc{
+    width: 344px;
+  height: 84px;
+  top: 4687px;
+  left: 379px;
+  margin-bottom: 20px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(117, 117, 117, 1);
+  
+  
+  }
+  .address-title{
+    color: rgba(8, 84, 108, 1);
+    font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  width: 71px;
+  height: 28px;
+  top: 4635px;
+  left: 887px;
+  }
+  .address-list{
+    color: rgba(117, 117, 117, 1);
+    width: 73px;
+  height: 180px;
+  top: 4691px;
+  left: 887px;
+  margin-bottom: 30px;
+  
+  }
